@@ -1,0 +1,169 @@
+h3 {
+  font-family: 'sans-serif';
+  font-weight: normal
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.attendanceView {
+
+  box-sizing: border-box;
+
+}
+
+td {
+  border: 1px solid #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: auto;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.tbody {
+  background-color: #8ca0ff;
+}
+
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modal_content {
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.teamMember {
+  padding-left: 10px; 
+  width: 100%;
+}
+
+.tag-item {
+  background-color: pink;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 30px;
+  height:  32px;
+  padding: 0 4px 0 1rem;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.3rem 0.3rem 0;
+}
+
+
+.input {
+  width: 100%;
+  height: 45px;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border-radius: 0.2rem;
+  border: 2px solid #d4d5d6;
+  color: #565656;
+  -webkit-appearance: none;
+}
+
+.input:focus {
+  border-color: cornflowerblue;
+  outline: none;
+}
+
+.meetingDescription {
+  border-color: cornflowerblue;
+  outline: none;
+}
+
+.date {
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: cornflowerblue;
+}
+
+.tag-item {
+  background-color:lightgreen;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 30px;
+  height: 30px;
+  padding: 0 4px 0 1rem;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.3rem 0.3rem 0;
+}
+
+.tag-item > .button {
+  background-color: lightgreen;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+.fa-eye{position: absolute;
+        right: 10px;
+        font-size:15px;
+        cursor:pointer} */
+/* 
+.navigation-head {
+  display: none;
+}        
+
+.mobile-menu {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  } 
+
+  .navigation-head {
+    display: block;
+  }        
+} */
