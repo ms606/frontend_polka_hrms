@@ -42,7 +42,7 @@ const HomeScreen = () => {
                {UNAME && <EmployeeInfoScreen /> } 
                </div>
               </Col> 
-              {/* <Col> <EmployeeProfileImage/> </Col>             */}
+              <Col> <EmployeeProfileImage/> </Col>            
             </Row>
             <Row>
              

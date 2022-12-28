@@ -23,6 +23,10 @@ const EmployeeInfoScreen = () => {
         <div>
         { info &&
        <div>
+        <h5 className='p-2'>Branch : <span style={{fontWeight: '500'}}>{info.BRANCH}</span></h5>
+        <h6 className='p-2'>Department : <span style={{fontWeight: '500'}}>{info.DPNAM}</span></h6>
+        <h6 className='p-2'>Designation : <span style={{fontWeight: '500'}}>{info.DSNAM}</span></h6>  
+        <h6 className='p-2'>Cell No #: <span style={{fontWeight: '500'}}>{info.CELLNO}</span></h6>  
         <h6 className='p-2'>Father/Spouse : <span style={{fontWeight: '500'}}>{info["Father's Name"]}</span></h6>  
         <h6 className='p-2'>Address : <span style={{fontWeight: '500'}}>{info.Address} </span> </h6>
         <h6 className='p-2'>Appointed On: <span style={{fontWeight: '500'}}>{info["Appointed On"]} </span></h6>
