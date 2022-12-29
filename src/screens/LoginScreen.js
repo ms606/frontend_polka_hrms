@@ -7,6 +7,8 @@ import 'react-toastify/dist/ReactToastify.css'
 
 import { useNavigate } from 'react-router-dom'
 
+import { auth, logInWithEmailAndPassword, signInWithGoogle } from '../services/auth-firebase';
+
 const LoginScreen = () => {
 
     const navigate = useNavigate();
@@ -45,6 +47,7 @@ const LoginScreen = () => {
     const submitHandler = (e) => {
         e.preventDefault()
         dispatch(login(email, password))     
+        logInWithEmailAndPassword(email, password)
     }
 
 
