@@ -41,7 +41,7 @@ const Header = () => {
                 </Nav>)}
 
                 <Nav>
-                <Nav.Link eventKey={1} href="/myaccount">
+                <Nav.Link href="/myAccount">
                     My Account
                 </Nav.Link>
                 

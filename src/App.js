@@ -12,6 +12,7 @@ import EmployeeDashboard from './screens/EmployeeDashboard';
 import EmployeeApplication from './screens/EmployeeApplication';
 import EmployeeProfileImage from './screens/EmployeeProfileImage';
 import EmployeeSalary from './screens/EmployeeSalary';
+import AccountSetting from './screens/AccountSetting';
 
 function App() {
   
@@ -30,6 +31,7 @@ function App() {
             <Route path='/EmployeeTiming' element={ <EmployeeTiming />} exact />
             <Route path='/EmployeeSalary' element={<EmployeeSalary />} exact />
             <Route path='/BookAppointment' component={MeetingScreen} exact />
+            <Route path='/myAccount' element={<AccountSetting />} exact />
             <Route path='/' element ={ <HomeScreen />} exact/>
            </Routes> 
           </Container>
